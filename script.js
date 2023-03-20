@@ -10,8 +10,8 @@ function palindrome(str){
 	let revArr=arr.reverse();
 	let joinArr=arr.join("");
 	if(temp===joinArr){
-		return "true";
+		return true;
 	}
-	return "false";
+	return false;
 }
 module.exports = palindrome
